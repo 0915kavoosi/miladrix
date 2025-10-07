@@ -22,8 +22,6 @@ body{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-
-
 }
 .illustration img{
     width: 100%;
@@ -39,8 +37,6 @@ body{
     counter-reset: hsl(224, 23%, 55%);
     margin-bottom: 20px;
     line-height: 1.6;
-    /* background-color: hsl(225, 100%, 98%); */
-    /* color: hsl(224, 23%, 55%); */
     align-items: center;
     line-height: 1.6;
     opacity: 0.5;    
@@ -55,7 +51,6 @@ body{
     margin-bottom: 20px;
 }
 .plan-details{
-    /* text-align: left; */
     display: flex;
     align-items: center;
     text-align: center;
@@ -68,7 +63,6 @@ body{
 }
 .plan-details span{
     font-size: 14px;
-    /* color: hsl(224, 23%, 55%); */
     opacity: 0.5;
 }
 .change{
@@ -108,4 +102,9 @@ body{
     transform: translateY(-20px)skewY(-10s);
     transform: scale(1.05);
     background-color: hsl(245, 85%, 60%);
+}
+.button-primary:active{
+    transform: scale(0.97);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: hsl(245, 70%, 45%);
 }
