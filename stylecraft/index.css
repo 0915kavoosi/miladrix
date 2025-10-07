@@ -8,9 +8,13 @@ body{
     padding-bottom: 200px;
     padding-top: 200px;
     background: url("pattern-background-desktop.svg");
-    background-color:  hsl(225, 100%, 94%);
+    background-color:  hsl(225, 100%, 94%);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               aS;
+    border-top-right-radius: 100% 100%;
+    border-top-left-radius: 100% 100%;
+    position:relative;
+    bottom: 7.5em;
     background-repeat: no-repeat;
-    background-position: top center ;
+    background-position: top center;
     background-size: contain 55px;
 }
 .container{
@@ -20,6 +24,8 @@ body{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
+
+
 }
 .illustration img{
     width: 100%;
@@ -85,7 +91,7 @@ body{
     cursor: pointer;
     margin-bottom: 10px;
     background-color: #3829e0;
-    box-shadow: 10px 10px 10px #16114d80;
+    /* box-shadow: 10px 10px 10px #16114d80; */
     color: white;
 }
 .button-secondary{
@@ -99,4 +105,13 @@ body{
     align-items: center;
     gap: 10px;
 
+}
+.button-primary:hover{
+    opacity: 0.7;
+    transition: all 2s ease ;
+    box-shadow: 10px 10px 10px #16114d80;
+    transform: translateY(-20px)skewY(-10s);
+
+
+    
 }
