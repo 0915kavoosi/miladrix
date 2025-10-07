@@ -78,7 +78,6 @@ body{
     font-size: 14px;
     padding: 10px;
     border: none;
-
 }
 .button-primary {
     width: 100%;
@@ -89,7 +88,7 @@ body{
     cursor: pointer;
     margin-bottom: 10px;
     background-color: #3829e0;
-    /* box-shadow: 10px 10px 10px #16114d80; */
+    box-shadow: 10px 10px 10px #16114d80;
     color: white;
 }
 .button-secondary{
@@ -105,11 +104,8 @@ body{
 
 }
 .button-primary:hover{
-    opacity: 0.7;
-    transition: all 2s ease ;
-    box-shadow: 10px 10px 10px #16114d80;
+    transition: all 0.5s ease ;
     transform: translateY(-20px)skewY(-10s);
-
-
-    
+    transform: scale(1.05);
+    background-color: hsl(245, 85%, 60%);
 }
