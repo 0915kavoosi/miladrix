@@ -15,14 +15,14 @@ body{
     background-position: top center;
     background-size: contain 55px;
 }
-.container{
+.container{     
     width: 350px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-}
+}   
 .illustration img{
     width: 100%;
     border-radius: 20px 20px 0 0;
@@ -82,7 +82,7 @@ body{
     cursor: pointer;
     margin-bottom: 10px;
     background-color: #3829e0;
-    box-shadow: 10px 10px 10px #16114d80;
+    box-shadow: 10px 10px 10px #05003b59;
     color: white;
 }
 .button-secondary{
